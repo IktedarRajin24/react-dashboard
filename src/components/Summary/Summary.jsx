@@ -8,14 +8,16 @@ const metrics = [
 ];
 const Summary = () => {
   return (
-    <div className="grid grid-cols-4 gap-4 p-4">
+    <div className="md:w-3/4 w-full grid md:grid-cols-4 grid-cols-2 gap-4 p-4  mx-auto">
       {metrics.map((metric) => (
         <div
           key={metric.title}
-          className="w-3/4 mx-auto bg-gray-50 p-4 rounded-lg text-center flex flex-col items-start justify-center"
+          className="w-full bg-gray-50 p-4 rounded-lg text-center flex flex-col items-start justify-center"
         >
-          <h2 className="text-text_color text-2xl">{metric.title}</h2>
-          <p className="text-[42px] font-bold text-primary_orange">
+          <h2 className="text-text_color md:text-2xl text-md">
+            {metric.title}
+          </h2>
+          <p className="md:text-[42px] text-[30px] font-bold text-primary_orange">
             {metric.value}
             {metric.unit}
           </p>

@@ -33,6 +33,9 @@ const OrdersBySource = () => {
         backgroundColor: "#00A6FF",
         tension: 0.4,
         pointRadius: 0,
+        datalabels: {
+          display: false,
+        },
       },
       {
         label: "Mobile",
@@ -41,6 +44,9 @@ const OrdersBySource = () => {
         backgroundColor: "#FF6B6B",
         tension: 0.4,
         pointRadius: 0,
+        datalabels: {
+          display: false,
+        },
       },
     ],
   };
@@ -54,6 +60,7 @@ const OrdersBySource = () => {
         labels: {
           usePointStyle: true,
           pointStyle: "rectRounded",
+          align: "left",
         },
       },
     },
@@ -79,7 +86,7 @@ const OrdersBySource = () => {
   };
 
   return (
-    <div className="w-1/2 p-4 bg-gray-50 rounded-lg">
+    <div className="h-[650px] p-4 bg-gray-50 rounded-lg">
       <h2 className="text-black font-bold mb-2 text-2xl">
         Total orders by source
       </h2>
