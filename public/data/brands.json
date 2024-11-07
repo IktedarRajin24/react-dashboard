@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "All Brands"
+  },
+  {
+    "id": 2,
+    "name": "Pizza Party",
+    "icon": "./icons/pizza-party.png"
+  },
+  {
+    "id": 3,
+    "name": "Wrappo",
+    "icon": "./icons/wrappo.png"
+  },
+  {
+    "id": 4,
+    "name": "McDonalds",
+    "icon": "./icons/mcdonalds.png"
+  },
+  {
+    "id": 5,
+    "name": "Burger King",
+    "icon": "./icons/burger_king.png"
+  },
+  {
+    "id": 6,
+    "name": "Snackmate",
+    "icon": "./icons/snackmate.png"
+  },
+  {
+    "id": 7,
+    "name": "Pizza Party",
+    "icon": "./icons/pizza-party.png"
+  },
+  {
+    "id": 8,
+    "name": "Wrappo",
+    "icon": "./icons/wrappo.png"
+  },
+  {
+    "id": 9,
+    "name": "Snackmate",
+    "icon": "./icons/snackmate.png"
+  }
+]
