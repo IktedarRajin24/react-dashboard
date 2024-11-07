@@ -86,7 +86,7 @@ const OrdersBySource = () => {
   };
 
   return (
-    <div className="h-[650px] p-4 bg-gray-50 rounded-lg">
+    <div className="md:h-[650px] p-4 bg-gray-50 rounded-lg">
       <h2 className="text-black font-bold mb-2 text-2xl">
         Total orders by source
       </h2>

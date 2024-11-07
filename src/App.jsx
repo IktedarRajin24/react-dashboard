@@ -1,4 +1,5 @@
 import "./App.css";
+import CustomerTable from "./components/CustomerTable/CustomerTable";
 import Dashboard from "./components/Dashboard/Dashboard";
 import OrdersByOutlet from "./components/OrdersByOutlet/OrdersByOutlet";
 import OrdersBySource from "./components/OrdersBySource/OrdersBySource";
@@ -9,10 +10,11 @@ function App() {
     <>
       <Dashboard />
       <Summary />
-      <div className="p-6 grid gap-6 md:grid-cols-2 items-center justify-between">
+      <div className="p-6 grid md:gap-6 md:grid-cols-2 items-center justify-between">
         <OrdersBySource />
         <OrdersByOutlet />
       </div>
+      <CustomerTable />
     </>
   );
 }

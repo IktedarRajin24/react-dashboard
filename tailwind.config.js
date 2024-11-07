@@ -8,6 +8,7 @@ export default {
         border_color: "#DEDEDE",
         selected_bg: "#FFE5DC",
         text_color: "#979797",
+        table_header: "#F2F2F2",
       },
     },
   },
