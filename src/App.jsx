@@ -1,5 +1,6 @@
 import "./App.css";
 import Dashboard from "./components/Dashboard/Dashboard";
+import OrdersBySource from "./components/OrdersBySource/OrdersBySource";
 import Summary from "./components/Summary/Summary";
 
 function App() {
@@ -7,6 +8,9 @@ function App() {
     <>
       <Dashboard />
       <Summary />
+      <div>
+        <OrdersBySource />
+      </div>
     </>
   );
 }
